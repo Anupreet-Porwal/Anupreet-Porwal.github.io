@@ -91,6 +91,42 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-143318593-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           document.location = url;
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target);  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-143318593-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -120,7 +156,7 @@
   <meta property="og:description" content="PhD student"><meta property="og:image" content="https://Anupreet-Porwal.github.io/img/icon-192.png">
   <meta property="twitter:image" content="https://Anupreet-Porwal.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
   
-    
+    <meta property="og:updated_time" content="2018-07-13T00:00:00&#43;00:00">
   
 
   
@@ -417,6 +453,24 @@
     
       
       <li><a href="https://Anupreet-Porwal.github.io/authors/admin/">Anupreet Porwal</a></li>
+    
+      
+      <li><a href="https://Anupreet-Porwal.github.io/authors/avani-samdariya/">Avani Samdariya</a></li>
+    
+      
+      <li><a href="https://Anupreet-Porwal.github.io/authors/gundeep-arora/">Gundeep Arora</a></li>
+    
+      
+      <li><a href="https://Anupreet-Porwal.github.io/authors/kanupriya-agarwal/">Kanupriya Agarwal</a></li>
+    
+      
+      <li><a href="https://Anupreet-Porwal.github.io/authors/piyush-rai/">Piyush Rai</a></li>
+    
+      
+      <li><a href="https://Anupreet-Porwal.github.io/authors/amit-mitra/">Amit Mitra</a></li>
+    
+      
+      <li><a href="https://Anupreet-Porwal.github.io/authors/sharmishtha-mitra/">Sharmishtha Mitra</a></li>
     
   </ul>
 

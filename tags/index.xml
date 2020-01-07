@@ -5,12 +5,44 @@
     <link>https://Anupreet-Porwal.github.io/tags/</link>
       <atom:link href="https://Anupreet-Porwal.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 13 Jul 2018 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://Anupreet-Porwal.github.io/img/icon-192.png</url>
       <title>Tags</title>
       <link>https://Anupreet-Porwal.github.io/tags/</link>
     </image>
+    
+    <item>
+      <title>Bayesian Statistics</title>
+      <link>https://Anupreet-Porwal.github.io/tags/bayesian-statistics/</link>
+      <pubDate>Fri, 13 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>https://Anupreet-Porwal.github.io/tags/bayesian-statistics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Statistical Modeling</title>
+      <link>https://Anupreet-Porwal.github.io/tags/statistical-modeling/</link>
+      <pubDate>Wed, 11 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>https://Anupreet-Porwal.github.io/tags/statistical-modeling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep Learning</title>
+      <link>https://Anupreet-Porwal.github.io/tags/deep-learning/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://Anupreet-Porwal.github.io/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Demo</title>
+      <link>https://Anupreet-Porwal.github.io/tags/demo/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://Anupreet-Porwal.github.io/tags/demo/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

@@ -5,12 +5,36 @@
     <link>https://Anupreet-Porwal.github.io/authors/admin/</link>
       <atom:link href="https://Anupreet-Porwal.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     <description>Academic</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 13 Jul 2018 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://Anupreet-Porwal.github.io/img/icon-192.png</url>
       <title>Academic</title>
       <link>https://Anupreet-Porwal.github.io/authors/admin/</link>
     </image>
+    
+    <item>
+      <title>Small-variance asymptotics for nonparametric Bayesian overlapping stochastic blockmodels</title>
+      <link>https://Anupreet-Porwal.github.io/publication/lfrm-sva-ijcai/</link>
+      <pubDate>Fri, 13 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>https://Anupreet-Porwal.github.io/publication/lfrm-sva-ijcai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Order estimation of 2-dimensional complex superimposed exponential signal model using exponentially embedded family (EEF) rule: large sample consistency properties</title>
+      <link>https://Anupreet-Porwal.github.io/publication/eef-mssp/</link>
+      <pubDate>Wed, 11 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>https://Anupreet-Porwal.github.io/publication/eef-mssp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Order Estimation of Superimposed Nonlinear Complex Cisoid Model Using Adaptively Penalizing Likelihood Rule: Consistency Results</title>
+      <link>https://Anupreet-Porwal.github.io/publication/pal/</link>
+      <pubDate>Thu, 13 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>https://Anupreet-Porwal.github.io/publication/pal/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

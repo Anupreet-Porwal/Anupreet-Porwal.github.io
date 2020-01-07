@@ -91,6 +91,42 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-143318593-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           document.location = url;
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target);  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-143318593-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -394,6 +430,21 @@
 
   
   
+  
+  <h2>Latest</h2>
+  <ul>
+    
+      <li><a href="/publication/lfrm-sva-ijcai/">Small-variance asymptotics for nonparametric Bayesian overlapping stochastic blockmodels</a></li>
+    
+      <li><a href="/publication/eef-mssp/">Order estimation of 2-dimensional complex superimposed exponential signal model using exponentially embedded family (EEF) rule: large sample consistency properties</a></li>
+    
+      <li><a href="/publication/pal/">Order Estimation of Superimposed Nonlinear Complex Cisoid Model Using Adaptively Penalizing Likelihood Rule: Consistency Results</a></li>
+    
+      <li><a href="/project/external-project/">External Project</a></li>
+    
+      <li><a href="/project/internal-project/">Internal Project</a></li>
+    
+  </ul>
   
 
 </div>

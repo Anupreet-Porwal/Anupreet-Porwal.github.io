@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Piyush Rai | Academic</title>
+    <link>https://Anupreet-Porwal.github.io/authors/piyush-rai/</link>
+      <atom:link href="https://Anupreet-Porwal.github.io/authors/piyush-rai/index.xml" rel="self" type="application/rss+xml" />
+    <description>Piyush Rai</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 13 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://Anupreet-Porwal.github.io/img/icon-192.png</url>
+      <title>Piyush Rai</title>
+      <link>https://Anupreet-Porwal.github.io/authors/piyush-rai/</link>
+    </image>
+    
+    <item>
+      <title>Small-variance asymptotics for nonparametric Bayesian overlapping stochastic blockmodels</title>
+      <link>https://Anupreet-Porwal.github.io/publication/lfrm-sva-ijcai/</link>
+      <pubDate>Fri, 13 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>https://Anupreet-Porwal.github.io/publication/lfrm-sva-ijcai/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 | Academic</title>
+    <link>https://Anupreet-Porwal.github.io/publication_types/2/</link>
+      <atom:link href="https://Anupreet-Porwal.github.io/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
+    <description>2</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 11 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://Anupreet-Porwal.github.io/img/icon-192.png</url>
+      <title>2</title>
+      <link>https://Anupreet-Porwal.github.io/publication_types/2/</link>
+    </image>
+    
+    <item>
+      <title>Order estimation of 2-dimensional complex superimposed exponential signal model using exponentially embedded family (EEF) rule: large sample consistency properties</title>
+      <link>https://Anupreet-Porwal.github.io/publication/eef-mssp/</link>
+      <pubDate>Wed, 11 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>https://Anupreet-Porwal.github.io/publication/eef-mssp/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
